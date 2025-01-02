@@ -1,10 +1,10 @@
-
+    let table = document.getElementById("sampleTable");
     table.addEventListener("click",insert_Row);
 
 function insert_Row() {
     //Write your code here
    // Get the reference to the table
-    let table = document.getElementById("sampleTable");
+    
 
     // Create a new row at the top
     let newRow = table.insertRow(0); // Insert at index 0
